@@ -1,0 +1,44 @@
+git init
+
+echo "Olá, mundo!\nEsta é uma linha de exemplo.\nTudo está funcionando perfeitamente." > example.txt
+
+git add example.txt
+
+git commit -m "Primeiro commit"
+git checkout -b feature
+echo "Esta é uma nova linha na branch feature." >> example.txt
+
+git commit -am "Adiciona nova linha na branch feature"
+git merge feature
+git add example.txt
+
+git commit -m "Resolve conflito de merge"
+Snippet de código para revisão:
+
+def soma(a, b):
+
+   return a + b
+
+
+def subtrai(a, b):
+
+   return a - b
+
+
+# Novas funções a serem adicionadas
+
+def multiplica(a, b):
+
+   return a * b
+
+
+def divide(a, b):
+
+   return a / b
+
+
+
+
+
+
+
